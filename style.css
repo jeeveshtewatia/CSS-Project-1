@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Poppins:wght@100;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .head {
     font-size: 4.5em;
     font-family: sans-serif;
@@ -8,7 +13,7 @@
 .absolute {
     position: absolute;
     top: 120px;
-    left: 300px;
+    left: 320px;
 }
 
 .head2 {
@@ -16,8 +21,8 @@
     font-size: 4.375em;
     /* font-family: sans-serif; */
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     color: grey;
-    font-weight: -200;
 }
 
 .fa-solid {
@@ -28,7 +33,7 @@
     /* display: inline; */
     margin-left: 250px;
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     color: grey;
 }
 
@@ -42,13 +47,26 @@ a {
     border: 2px solid orange;
     display: inline-block;
     border-radius: 10px;
-    margin: 250px 70px 0px 0px;
-    box-shadow: 10px 10px lightcyan;
+    /* margin: 250px 70px 0px 0px; */
+    margin: 100px 70px 0px 0px;
+    /* box-shadow: 10px 10px lightcyan; */
+    box-shadow: 8px 8px 8px lightgray;
 }
 
 .center {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.center2 {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading {
@@ -56,13 +74,15 @@ a {
     margin-left: 50px;
     padding-bottom: 10px;
     font-size: 1.875em;
+    font-weight: 300;
     color: orangered;
 }
 
 .line {
     margin-left: 25px;
     padding-bottom: 10px;
-    font-size: 1.875em;
+    /* font-size: 1.8em; */
+    font-size: 3.5vh;
     color: red;
     text-decoration-line: line-through;
 }
@@ -78,18 +98,20 @@ a {
 
 .blur {
     filter: blur(8px);
+    /* z-index: 0; */
+    position: absolute;
 }
 
 .flex {
-    /* position: absolute; */
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh; */
-    position: absolute;
-    top: 40%;
-    left: 40%;
+    height: 100vh;
+    /* position: absolute; */
+    /* top: 40%; */
+    /* left: 40%; */
+    /* z-index: 2; */
 }
 
 .box2page {
@@ -99,8 +121,8 @@ a {
     /* display: inline-block; */
     border-radius: 10px;
     /* margin: 250px 70px 0px 0px; */
-    box-shadow: 10px 10px lightcyan;
-    margin-left: 36%;
+    box-shadow: 10px 10px lightgray;
+    /* margin-left: 36%; */
     /* display: flex; */
 }
 
@@ -165,7 +187,7 @@ a {
 }
 
 .mtop {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .m2 {
@@ -177,7 +199,8 @@ a {
     border-bottom: 1px solid #000;
     line-height: 0.2em;
     /* margin: 30px 0 20px 0px; */
-    font-size: 80px;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .span {
@@ -188,7 +211,9 @@ a {
 .m22 {
     text-align: center;
     margin: 70px;
+    color: grey;
     font-size: 2em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .solid {
